@@ -1,0 +1,275 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+.navbar {
+  background-color: #fff;
+  box-shadow: 0 5px 10px rgba(131, 142, 152, 0.15);
+}
+
+.navbar li a {
+  margin-left: 40px;
+  color: #333;
+  font-size: 18px;
+  font-weight: 550;
+}
+.navbar li a:hover {
+  display: block;
+  color: #f2634d;
+  border-bottom: 3px solid #f2634d;
+  margin-bottom: -8px;
+}
+
+
+.offcanvas-body ul {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.offcanvas-body ul li a  {
+  margin-top: 30px;
+  color: #333;
+}
+
+
+.banner {
+  margin-top: 100px;
+}
+
+.banner h1 {
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 70px;
+}
+
+.banner span {
+  color: #f2634d;
+}
+
+.banner button {
+  background-color: #f68472;
+  color: #fff;
+  width: 160px;
+  padding: 10px;
+  border-radius: 10px;
+}
+.banner button:hover {
+  color: #fff;
+  background-color: #fc3e21;
+}
+
+.banner img {
+  border-radius: 20px;
+  margin-top: 35px;
+}
+
+.icon {
+  margin-top: 30px;
+}
+
+.icon i {
+  padding: 10px;
+  font-size: 20px;
+  color: #333;
+  font-weight: bolder;
+  transition: 0.4s;
+}
+
+.icon i:hover {
+  color: #f68472;
+}
+
+.about {
+  margin-top: 100px;
+}
+
+.about h2 {
+  font-weight: bolder;
+  color: #f2634d;
+}
+
+.about h2::after {
+  content: "";
+  display: block;
+  border-bottom: 3px solid #f68472;
+  margin: auto;
+  width: 100px;
+  padding-top: 5px;
+}
+
+.about img {
+  margin-top: 50px;
+  border-radius: 10px;
+}
+
+.about h3 {
+  margin-top: 50px;
+  font-size: 35px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.about p {
+  margin-top: 20px;
+  color: rgb(105, 105, 105);
+  line-height: 30px;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.skills {
+  margin-top: 50px;
+}
+
+.skills h2 {
+  font-weight: bolder;
+  color: #f2634d;
+}
+
+.skills h2::after {
+  content: "";
+  display: block;
+  border-bottom: 3px solid #f68472;
+  margin: auto;
+  width: 100px;
+  padding-top: 5px;
+}
+
+.skills h3 {
+  margin-top: 50px;
+  font-size: 29px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.skills p {
+  margin-top: 20px;
+  color: rgb(105, 105, 105);
+  line-height: 30px;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.skills img {
+  margin-top: 50px;
+  border-radius: 10px;
+}
+
+.skills .card {
+  border-radius: 20px;
+  margin-top: 10px;
+  
+}
+
+.skills i {
+  font-size: 50px;
+  color: #f68472;
+}
+
+.skills .bahasa img {
+  margin-top: 0px;
+}
+
+
+.work {
+  margin-top: 50px;
+}
+
+.work h2 {
+  font-weight: bolder;
+  color: #f2634d;
+}
+
+.work h2::after {
+  content: "";
+  display: block;
+  border-bottom: 3px solid #f68472;
+  margin: auto;
+  width: 100px;
+  padding-top: 5px;
+}
+
+
+.work .card {
+  margin-top: 40px;
+  border-radius: 10px;
+  padding: 10px;
+  
+}
+
+.work .card img {
+  width: 400px;
+  height: 150px;
+
+}
+
+.work .card a {
+  background-color: #f68472;
+  color: #fff;
+  border-radius: 20px;
+}
+
+
+.work .card a:hover {
+  color: #fff;
+  background-color: #fc3e21;
+}
+
+
+.footer {
+  margin-top: 100px;
+  background-color:#f68472 ;
+}
+
+.footer p {
+  text-align: center;
+  padding: 10px;
+  color:#fff;
+}
+
+@media (min-width: 768px) {
+  .banner {
+    margin-top: 250px;
+  }
+
+  .banner img {
+    margin-top: 0px;
+  }
+
+  .about {
+    margin-top: 250px;
+  }
+
+  .skills {
+    margin-top: 100px;
+  }
+
+  .work {
+    margin-top: 100px;
+  }
+
+  .skills img {
+    margin-top: 100px;
+  }
+
+  .about h3 {
+    margin-top: 150px;
+    text-align: start;
+  }
+  .about p {
+    text-align: start;
+  }
+
+  .skills h3 {
+    margin-top: 50px;
+    text-align: start;
+  }
+
+  .skills p {
+    text-align: start;
+  }
+}

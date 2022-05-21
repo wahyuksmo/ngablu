@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CLICK = GAY</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+    />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        font-family: sans-serif;
+        box-sizing: border-box;
+        outline: none;
+      }
+
+      body {
+        background: #fff;
+        overflow-x: hidden;
+      }
+
+      .boxGaleri {
+        width: 100%;
+        height: 100vh;
+      }
+
+      .galeri {
+        width: 100%;
+        height: 100%;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-color: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      h2 {
+        font-size: 5vw;
+        color: #fff;
+      }
+
+      .galeri1 {
+        background-image: url(img/1366x768-Firewatch-1366x768-Resolution-HD-4k-Wallpapers-.jpg);
+      }
+
+      .galeri4 {
+        flex-direction: column;
+      }
+
+      .fa-heart {
+        color: red;
+      }
+
+      .hitam {
+        color: #000;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="boxGaleri">
+      <div class="galeri galeri1">
+        <h2>I <i class="fa fa-heart"></i> ur mom than ur dad</h2>
+      </div>
+
+
+    <button>MULUT LU BAU KEMENYAN</button>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"
+      integrity="sha512-cdV6j5t5o24hkSciVrb8Ki6FveC2SgwGfLE31+ZQRHAeSRxYhAQskLkq3dLm8ZcWe1N3vBOEYmmbhzf7NTtFFQ=="
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+    <script type="text/javascript">
+      let button = document.querySelector("button");
+      let galeri = document.querySelector(".galeri4");
+
+      button.addEventListener("click", () => {
+        let r = Math.round(Math.random() * 255 + 1);
+        let g = Math.round(Math.random() * 255 + 1);
+        let b = Math.round(Math.random() * 255 + 1);
+
+        galeri.style.backgroundColor = "rgb(" + r + ", " + g + ", " + b + ")";
+      });
+
+      gsap.to(".fa-heart", {
+        scale: 1.2,
+        repeat: -1,
+        opacity: 1,
+        yoyo: true,
+        duration: 0.3,
+      });
+
+      swal("Tulis nama lu:", {
+        content: "input",
+      }).then((value) => {
+        swal(`Ko lu mirip ${value} `, "Jawab Aja").then((value) => {
+          swal(`Jawab`).then(() => {
+            swal("Jujur gan").then(() => {
+              swal("Lu mau jadi ceww gw ?", {
+                buttons: {
+                  cancel: "Ga",
+                  catch: {
+                    text: "Ya",
+                    value: "catch",
+                  },
+                  defeat: false,
+                },
+              }).then((value) => {
+                switch (value) {
+                  case "catch":
+                    swal("Mantap").then(() => {
+                      swal(" Lu cowo bukan ?", {
+                        buttons: {
+                          cancel: "Ya",
+                          catch: {
+                            text: "Bukan",
+                            value: "boleh",
+                          },
+                          defeat: false,
+                        },
+                      }).then((value) => {
+                        switch (value) {
+                          case "boleh":
+                            swal("LU MAU GW TEMBAK PALALU DIMANA ? ", {
+                              buttons: {
+                                cancel: "Online",
+                                catch: {
+                                  text: "Offline",
+                                  value: "offline",
+                                },
+                                defeat: false,
+                              },
+                            }).then((value) => {
+                              switch (value) {
+                                case "offline":
+                                  swal("Ok").then(() => {
+                                    swal(
+                                      "YANG MAIN SAMPE SINI SI GOKIL NAHAN CRINGE NYA"
+                                    );
+                                  });
+                                  break;
+
+                                default:
+                                  swal(
+                                    "OK SS",
+                                    "ss gan "
+                                  ).then(() => {
+                                    swal(
+                                      "YANG MAIN SAMPE SINI SI GOKIL NAHAN CRINGE NYA"
+                                    )
+                                  });
+                              }
+                            });
+                            break;
+
+                          default:
+                            swal("GAY ASU").then(() => {});
+                        }
+                      });
+                    });
+
+                    break;
+
+                  default:
+                    swal("BOONG YANG BENER? HAA ?   ya dek kamu gamau sama aku karna kamu belum kena ketipan matahari,kalo kamu udah kena ketipan matahari jangan tinggalkan aaku Hmm.Gamau sama abang..Gamau pisah denganku Kaann..  ").then(() => {});
+                }
+              });
+            });
+          });
+        });
+      });
+    </script>
+  </body>
+</html>

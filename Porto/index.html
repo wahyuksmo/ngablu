@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css"
+    />
+
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <section class="kepala">
+      <nav class="navbar fixed-top navbar-expand-lg">
+        <div class="container">
+          <a
+            class="navbar-brand"
+            href="#"
+            style="color: #333; font-size: 20px; font-weight: 650"
+            >Wahyu</a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasExample"
+            aria-controls="offcanvasExample"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <i class="bi bi-list"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#skills">Skills</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#work">Works</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    
+      <div
+        class="offcanvas offcanvas-start"
+        tabindex="-1"
+        id="offcanvasExample"
+        aria-labelledby="offcanvasExampleLabel"
+      >
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasExampleLabel">Wahyu</h5>
+          <button
+            type="button"
+            class="btn-close text-reset"
+            data-bs-dismiss="offcanvas"
+            aria-label="Close"
+          ></button>
+        </div>
+        <div class="offcanvas-body">
+          <div>
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#skills">Skills</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#work">Works</a>
+              </li>
+            </ul>
+          </div>
+          
+        </div>
+      </div>
+    </section>
+
+    <section class="banner" id="banner">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6" data-aos="fade-right">
+            <h1>
+              Hi,<br />
+              I'am <span>Wahyu</span><br />
+              Reguler Pedestrian
+            </h1>
+            <button class="btn mt-4">Download CV</button>
+            <br />
+            <section class="icon">
+              <a href="https://www.instagram.com/wahyuksmo/"><i class="bi bi-instagram"></i></a>
+              <a href="https://twitter.com/pengedar_rokok"><i class="bi bi-twitter"></i></a>
+              <a href="https://wa.me/6285773006946"><i class="bi bi-whatsapp"></i></a>
+            </section>
+          </div>
+
+          <div class="col-md-6" data-aos="fade-left">
+            <img src="img/dsa.jpeg" class="img-fluid" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <div class="container">
+        <div class="row">
+          <h2 class="text-center" data-aos="zoom-in">About Me</h2>
+
+          <div class="col-md-6" data-aos="fade-up-right">
+            <img src="img/foto.png" class="img-fluid" />
+          </div>
+
+          <div class="col-md-6" data-aos="fade-up-left">
+            <h3>I'am Wahyu</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
+              nam, quod ab amet exercitationem nobis quibusdam laboriosam
+              suscipit odio facilis, quos ipsum, dignissimos distinctio
+              reiciendis fugiat accusamus. Maiores, magni? Quo!
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="skills" id="skills">
+      <div class="container">
+        <div class="row">
+          <h2 class="text-center" data-aos="zoom-in">Skills</h2>
+          <div class="col-md-6 bahasa">
+            <h3 data-aos="fade-right">Profesional Skills</h3>
+            <p data-aos="fade-right" > 
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Error
+              ipsam consectetur molestias obcaecati.
+            </p>
+
+            <div class="row text-center" data-aos="flip-down">
+              <div class="col-md">
+                <div class="card">
+                  <div class="card-body">
+                    <img src="img/icons8-bootstrap.svg" alt="">
+                    <h5 class="card-title">Bootstrap</h5>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md">
+                <div class="card">
+                  <div class="card-body">
+                    <img src="img/icons8-java.svg" alt="">
+                    <h5 class="card-title">Java</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="row text-center" data-aos="flip-up">
+              <div class="col-md">
+                <div class="card">
+                  <div class="card-body">
+                   <img src="img/icons8-php-logo.svg" alt="">
+                    <h5 class="card-title">PHP</h5>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md" >
+                <div class="card">
+                  <div class="card-body">
+                    <img src="img/icons8-wi-fi-router-48.png" alt="" width="40px">
+                    <h5 class="card-title">Mikrotik</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6"  data-aos="fade-left">
+            <img src="img/skills.jpg" alt="" class="img-fluid" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="work" id="work">
+
+      <div class="container">
+        <h2 class="text-center" data-aos="zoom-in">Works</h2>
+        <div class="row text-center"  data-aos="flip-down">
+         
+
+          <div class="col-md">
+            <div class="card">
+              <img src="img/GameBurung.png" class="card-img-top img-fluid" alt="...">
+              <div class="card-body">
+                <p class="card-text">Burung</p>
+                <a href="https://github.com/wahyuksmo/burung" class="btn">Detail</a>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="col-md">
+            <div class="card">
+              <img src="img/BudgetApp.png" class="card-img-top img-fluid" alt="...">
+              <div class="card-body">
+                <p class="card-text">Budget App</p>
+                <a href="https://github.com/wahyuksmo/budget-app" class="btn">Detail</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md">
+            <div class="card">
+              <img src="img/tokoOnline.png" class="card-img-top img-fluid" alt="...">
+              <div class="card-body">
+                <p class="card-text">Toko Online</p>
+                <a href="https://github.com/wahyuksmo/toko-makanan-full" class="btn">Detail</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md">
+            <div class="card">
+              <img src="img/PukulTemen.png" class="card-img-top img-fluid" alt="...">
+              <div class="card-body">
+                <p class="card-text">Pukul Temen</p>
+                <a href="https://github.com/wahyuksmo/pukul-syawal" class="btn">Detail</a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </section>
+ 
+
+
+    <section class="footer" >
+
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <p>Copyright 2020.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+   
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 2000,
+        once: true,
+      });
+    </script>
+  </body>
+</html>
