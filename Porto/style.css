@@ -179,6 +179,10 @@
   margin-top: 50px;
 }
 
+.work h5 {
+  font-weight: bold;
+}
+
 .work h2 {
   font-weight: bolder;
   color: #f2634d;
@@ -218,6 +222,11 @@
   color: #fff;
   background-color: #fc3e21;
 }
+
+.work p {
+  font-size: 13px;
+}
+
 
 
 .footer {
