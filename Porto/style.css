@@ -48,14 +48,14 @@
   color: #f2634d;
 }
 
-.banner button {
+.banner .cv {
   background-color: #f68472;
   color: #fff;
   width: 160px;
   padding: 10px;
   border-radius: 10px;
 }
-.banner button:hover {
+.banner .cv:hover {
   color: #fff;
   background-color: #fc3e21;
 }
